@@ -5,11 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body{background-color: green;}
+        *{
+            margin-top: 0px;
+            padding: 0px;
+
+        }
         img{
-            transition: 1s;
+           transition: 8s;
             height: 100px;
             width: 100px;
-            margin: 100px;
+            box-shadow: 10px;
+            
             
         }
         img:hover{
@@ -19,10 +26,23 @@
         .tractor{
             display: flex;
             flex-direction: row-reverse;
+            position: absolute;
+            top: 100px;
+            right: 0;
+            transition: 0s;
         }
+        .road{
+            height: 120px;
+            width: 2000px;
+            background-color: rgba(247, 144, 0, 0.896);
+            margin-top: 100px;
+             
+        }
+
     </style>
 </head>
 <body>
+    <div class="road"></div>
     <div class="tractor">
         <img src="./tractor.png" alt="">
     </div>
