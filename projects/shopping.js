@@ -1,0 +1,24 @@
+let image=document.querySelectorAll("img")
+let title=document.querySelectorAll(".title")
+let catogry=document.querySelectorAll(".catogry")
+let price=document.querySelectorAll(".price")
+
+fetch('https://dummyjson.com/products')
+.then((res)=> {
+    res.json()
+    .then((data)=>{
+        for (let i = 0; i < data.products.length; i++) {
+            image[i].src=data.products[i].thumbnail
+            title[i].innerText=data.products[i].title
+            
+        }
+    })
+    .catch((mes)=>{
+        console.log(mes)
+    })
+
+})
+
+.catch((err)=>{
+        console.log(err)
+    })
