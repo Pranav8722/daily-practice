@@ -14,7 +14,7 @@
     display:grid;
     grid-template-columns: 50px 50px 50px 50px;
     justify-content: space-evenly;
-    gap: 20px;
+    gap: 35px;
      margin-left: -300px;
     text-align: center;
     
@@ -24,16 +24,15 @@
 .card1{
     box-shadow: 0px 0px 10px gray;
     width: 350px;
-    height: 380px;
+    height: 390px;
     border-radius: 50px;
    
 }
 
-.card1:hover{
-    box-shadow: 0px 0px 10px gray;
-  
-    border-radius: 50px;
-    transform: rotate(2deg);
+.card1:hover>img{
+    
+    /* transform: rotate(2deg); */
+    transform: scale(1.2);
     
    
 }
@@ -49,11 +48,37 @@
     
 }
 
+.discription{
+line-height: 1.5;
+}
+.price{
+    font-weight: bolder;
+    font-size: large;
+    
+
+}
+.price:hover{
+    transform:scale(1.5) ;
+    color: rgba(14, 227, 11, 0.777);
+}
+.price::before{
+    content: "M.R.P:₹ ";
+    font-weight: bolder;
+    font-size: large;
+}
+
+.title{
+    color: blueviolet;
+}
+.catogry::before{
+content: "catogory:";
+}
+
 
 .navbar{
     height: 80px;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     background-color: rgb(16, 43, 43);
     display: flex;
     align-items: center;
