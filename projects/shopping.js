@@ -9,7 +9,7 @@ fetch('https://dummyjson.com/products')
     
     res.json()
     .then((data)=>{
-        for (let i = 0; i < data.products.length; i++) {
+        for (let i = 1; i < data.products.length; i++) {
             image[i].src=data.products[i].thumbnail
             title[i].innerText=data.products[i].title
             catogry[i].innerText=data.products[i].category
