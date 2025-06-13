@@ -11,9 +11,9 @@ fetch('https://dummyjson.com/products')
     .then((data)=>{
         for (let i = 1; i < data.products.length; i++) {
             image[i].src=data.products[i].thumbnail
-            title[i].innerText=data.products[i].title
-            catogry[i].innerText=data.products[i].category
-            price[i].innerText=data.products[i].price
+            title[i-1].innerText=data.products[i].title
+            catogry[i-1].innerText=data.products[i].category
+            price[i-1].innerText=data.products[i].price
 
             console.log( data)
             
