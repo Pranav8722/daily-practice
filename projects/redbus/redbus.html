@@ -12,12 +12,14 @@
             padding: 0px;
             font-family: sans-serif;
         }
+
         .sec1{
             background-image: url("https://s3.rdbuz.com/Images/responsiveweb/HomeBanner.webp");
-            height: 300px;
+            height: 280px;
             width: 100vw;
             background-size:cover ;
             background-repeat: no-repeat;
+           
         }
         .sec1 h1{
            color: white; 
@@ -28,16 +30,185 @@
            width: 500px;
         }
         .sub_sec1{
-            height: 300px;
+            height: 280px;
             width: 100vw;
             background: linear-gradient(to right,rgba(0, 0, 0, 0.619),rgba(255, 255, 255, 0));
         }
+        .depart_info{
+            height: 100px;
+            width: 78%;
+            box-shadow: 0px 0px 20px black;
+            position: relative;
+            bottom: 45px;
+            left: 150px;
+            padding-top: 20px;
+            padding-left: 20px;
+            background-color: white;
+            border-radius: 20px;
+            
+        }
+        .depart_info input{
+            height: 40px;
+            width:250px;
+            border: 1px solid black;
+            padding-left: 40px;
+            margin-left: -10px;
+        }
+        
+        .depart_info svg{
+            position: absolute;
+           top: 32px;
+          
+
+        }
+        
+
+        
+        .nav{
+            height: 65px;
+            width: 100vw;
+            
+            
+        }
+        .logo img{
+            height: 56px;
+            width: 56px;
+            position: relative;
+            left: 158px;
+            top: 5px;
+        }
+        .icon img{
+            height: 30px;
+            width: 45px;
+            position: relative;
+            left: 280px;
+            bottom: 45px;
+            
+        }
+        .icon2 img{
+            height: 30px;
+            width: 45px;
+            position: relative;
+            left: 400px;
+            bottom: 80px;
+            
+            
+        }
+
+        .info a{
+            position: relative;
+            bottom: 105px;
+            position: relative;
+            left: 1050px;
+            padding-left: 50px;
+            text-decoration: none;
+            color: black;
+            font-size: small;
+           
+           
+
+        }
+        .info svg{
+            position: absolute;
+            top: 25px;
+            padding-left: 1070px;
+            
+            
+        }
+
+        .depart_info button{
+            height: 50px;
+            width: 300px;
+            position: relative;
+            top: 75px;
+            right: 35%;
+            background-color: #d63941;
+            border-radius: 30px;
+            border: none;
+            color: white;
+            font-weight: bold;
+            font-size:large;
+            
+        }
+        
+        button svg{
+
+            position: relative;
+            
+            
+
+        }
+
     </style>
 </head>
 <body>
-    <div class="sec1">
+    <div class="nav">
+        <header>
+            <div class="logo"><img src="./assets/logo.png" alt=""></div>
+            <div class="icon"><img src="./assets/bus.png" alt=""></div>
+            <div class="icon2"><img src="./assets/rail.png" alt=""></div>
 
-        <div class="sub_sec1"><h1>India's No. 1 online bus ticket booking site</h1></div>
+            <div class="info">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+</svg>
+                <a href="">Bookings</a>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
+  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+  <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286m1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94"/>
+</svg>
+                <a href="">Help</a>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+</svg>
+                <a href="">Account</a>
+            </div>
+            
+        </header>
     </div>
+   <div class="redbus">
+
+     <div class="sec1">
+
+        <div class="sub_sec1"><h1>India's No. 1 online bus ticket booking site</h1></div> 
+    </div>
+
+    <div class="depart_info">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bus-front" viewBox="0 0 16 16">
+  <path d="M5 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0m8 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m-6-1a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2zm1-6c-1.876 0-3.426.109-4.552.226A.5.5 0 0 0 3 4.723v3.554a.5.5 0 0 0 .448.497C4.574 8.891 6.124 9 8 9s3.426-.109 4.552-.226A.5.5 0 0 0 13 8.277V4.723a.5.5 0 0 0-.448-.497A44 44 0 0 0 8 4m0-1c-1.837 0-3.353.107-4.448.22a.5.5 0 1 1-.104-.994A44 44 0 0 1 8 2c1.876 0 3.426.109 4.552.226a.5.5 0 1 1-.104.994A43 43 0 0 0 8 3"/>
+  <path d="M15 8a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1V2.64c0-1.188-.845-2.232-2.064-2.372A44 44 0 0 0 8 0C5.9 0 4.208.136 3.064.268 1.845.408 1 1.452 1 2.64V4a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1v3.5c0 .818.393 1.544 1 2v2a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5V14h6v1.5a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-2c.607-.456 1-1.182 1-2zM8 1c2.056 0 3.71.134 4.822.261.676.078 1.178.66 1.178 1.379v8.86a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 11.5V2.64c0-.72.502-1.301 1.178-1.379A43 43 0 0 1 8 1"/>
+</svg>
+        <input placeholder="From" type="text">
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bus-front-fill" viewBox="0 0 16 16">
+  <path d="M16 7a1 1 0 0 1-1 1v3.5c0 .818-.393 1.544-1 2v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5V14H5v1.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-2a2.5 2.5 0 0 1-1-2V8a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1V2.64C1 1.452 1.845.408 3.064.268A44 44 0 0 1 8 0c2.1 0 3.792.136 4.936.268C14.155.408 15 1.452 15 2.64V4a1 1 0 0 1 1 1zM3.552 3.22A43 43 0 0 1 8 3c1.837 0 3.353.107 4.448.22a.5.5 0 0 0 .104-.994A44 44 0 0 0 8 2c-1.876 0-3.426.109-4.552.226a.5.5 0 1 0 .104.994M8 4c-1.876 0-3.426.109-4.552.226A.5.5 0 0 0 3 4.723v3.554a.5.5 0 0 0 .448.497C4.574 8.891 6.124 9 8 9s3.426-.109 4.552-.226A.5.5 0 0 0 13 8.277V4.723a.5.5 0 0 0-.448-.497A44 44 0 0 0 8 4m-3 7a1 1 0 1 0-2 0 1 1 0 0 0 2 0m8 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0m-7 0a1 1 0 0 0 1 1h2a1 1 0 1 0 0-2H7a1 1 0 0 0-1 1"/>
+</svg>
+        <input placeholder="To" type="text">
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
+  <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2M1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857z"/>
+  <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+</svg>
+        <input placeholder="date" type="date">
+
+
+        
+    <button >
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+</svg>
+        Search Buses</button>
+
+       
+    </div>
+   
+
+   </div>
+
+
+
+
+
 </body>
 </html>
