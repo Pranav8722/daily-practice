@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+}
+.loader{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 700px;
+    top: 300px;
+    border-radius: 10px;
+    border: 6px solid aqua inset;
+    box-shadow: 0 0 12px aqua,0 0 3px aqua inset;
+    animation-name: load;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition: 2s;
+    
+
+}
+.loader h1{
+    color: white;
+    position: relative;
+    left: 20px;
+    top: 10px;
+   
+}
+
+@keyframes load{
+    0%{
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+        transition: 2s;
+    }
+    
+    30%{
+        transform: rotateX(180deg) rotateY(0deg) rotateZ(0deg);
+        transition: 2s;
+    }
+    80%{
+        transform: rotateX(180deg) rotateY(180deg) rotateZ(0deg);
+        transition: 2s;
+    }
+    100%{
+        transform: rotateX(1800deg) rotateY(1800deg) rotateZ(1800deg);
+        transition: 2s;
+    }
+
+}
