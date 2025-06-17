@@ -1,0 +1,38 @@
+.logo{
+    background-color: blue;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-content: center;
+   margin: 400PX;
+   margin-left: 600PX;
+   
+}
+.logo h1{
+    padding-left: 30%;
+    padding-top: 30%;
+    color: white;
+}
+
+.logo:hover{
+    animation-name: spin;
+   animation-duration: 5s;
+}
+
+@keyframes spin{
+    0%{
+
+    }
+    50%{
+        transform: rotate(0);
+         scale : 1.2;
+
+    }
+
+    100%{
+        transform: rotate(360deg);
+        border-radius: 50%;
+        transition: 2s;
+        background-color: brown;
+    }
+}
