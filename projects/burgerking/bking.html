@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            height: 55px;
+            width: 100vw;
+            box-shadow: 0px 0px 1px;
+            font-family:flame bold;
+            
+        }
+        .nav h1{
+            color: #502314;
+           position: relative;
+           left: 250px;
+
+            
+        }
+        .nav .hamburger{
+            position: relative;
+            left: 180px;
+            
+
+        }
+
+
+
+        .nav a{
+            position: relative;
+            right: 180px;
+            text-decoration: none;
+            font-size: 14px;
+            background-color: rgba(255, 255, 255, 0);
+            border: 1px solid gray;
+            height: 30px;
+            width:85px;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50px;
+            color: gray;
+            padding-left: 30px;
+        }
+
+        .nav .cart{
+            position: relative;
+            left:130px
+        }
+
+        .nav .care{
+            position: relative;
+            left:360px
+        }
+        .hero{
+            display: flex;
+            justify-content: space-around;
+
+        }
+        .hero img{
+            width: 788px;
+            height: 395px;
+            position: relative;
+            top: 25px;
+            right: 60px;
+
+        }
+        .hero h1{
+            font-size: 60px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            position: relative;
+            top: 108px;
+            left: 32px;
+            color:#502314;
+            
+
+        }
+
+        #op{
+            width: 100px;
+            height: 30px;
+            position: absolute;
+            top: 340px;
+            left: 210px;
+            scale: 1.8;
+            border: none;
+            border-radius: 50px;
+            width: 155px;
+            background-color: #D62300;
+            color: white;
+            font-size:9px;
+            font-weight: bold;
+        }
+        #od{
+            width: 100px;
+            height: 30px;
+            position: absolute;
+            top: 400px;
+            left: 210px;
+            scale: 1.8;
+            
+            border-radius: 50px;
+            width: 155px;
+            border: 0.3px solid black;
+            font-size:9px;
+            font-weight: bold;
+            color: #502314;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="20" fill="#502314" class="hamburger" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+</svg>
+            <h1>BURGER KINGS</h1>
+
+
+
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#502314" class="care" viewBox="0 0 16 16">
+  <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+</svg>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#502314" class="cart" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M10.854 8.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708 0"/>
+  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+</svg>
+            <a href="">View Cart</a>
+        </div>
+    </header>
+    <div class="hero">
+        <h1>Start your <br> BK <sup>®</sup> order.</h1>
+        
+
+       
+        <img src="https://cdn.sanity.io/images/czqk28jt/prod_bk_us/48446d079c69033ea8d65ed8de90ecae6000dc74-2100x1050.png?w=1125&q=75&fit=max&auto=format" alt="">
+
+    </div>
+    <button id="op">Order Pickup</button>
+        <br><br>
+        
+        <button id="od">Order Delivery</button>
+
+
+
+</body>
+</html>
