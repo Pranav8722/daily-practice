@@ -1,0 +1,29 @@
+.App h1 {
+  text-align: center;
+  color: red;
+}
+
+ .parrent{
+            background-color: brown;
+            height: 500px;
+            width: 500px;
+            display: flex;
+            align-items: center;
+            margin:50px
+
+        }
+        .c1{
+            height: 80px;
+            width: 80px;
+            background-color: rgb(95, 122, 220);
+        }
+        .c2{
+            height: 80px;
+            width: 80px;
+            background-color:aqua;
+        }
+        .c3{
+            height: 80px;
+            width: 80px;
+            background-color:aliceblue;
+        }
