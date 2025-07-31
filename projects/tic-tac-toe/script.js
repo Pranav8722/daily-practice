@@ -1,7 +1,7 @@
 let div=document.querySelectorAll(".container")
 let buttons=document.querySelectorAll(".button")
 let reset=document.querySelector("#reset")
-let win=document.querySelector("#winn")
+
 let turn=0
 
 const winningCombinations = [
@@ -19,7 +19,9 @@ let winner=()=>{
             buttons[a].innerText===buttons[c].innerText 
         ){
 
-            alert(`${buttons[a].innerText}..win the game`)
+            
+            alert(`${buttons[a].innerText}..won the game`)
+           
             disableAllButtons();
             
             return; 
@@ -46,11 +48,13 @@ buttons.forEach((button)=>{
             button.innerText="X"
             button.style.color="red"
             button.style.textShadow="red"
+            
            
         }
         else{
              button.innerText="O"
               button.style.color="blue"
+              
         }
         turn++
         winner();
@@ -68,6 +72,7 @@ buttons.forEach((button)=>{
             btn.innerText=""
             btn.disabled=false
             btn.style.color=""
+            
         })
         turn=0
     } )

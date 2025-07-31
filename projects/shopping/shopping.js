@@ -6,7 +6,7 @@ let price=document.querySelectorAll(".price")
 
 fetch('https://dummyjson.com/products')
 .then((res)=> {
-    
+    // console.log(res)
     res.json()
     .then((data)=>{
         for (let i = 1; i < data.products.length; i++) {

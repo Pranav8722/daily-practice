@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <style>
+         *{
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            background-color: rgb(5, 35, 35);
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(4, 50px);
+            grid-template-rows: repeat(5, 50px);
+            gap: 4px;
+         }
+        .container{
+            position: absolute;
+            left: 500PX;
+            top: 100PX;
+            height:325px;
+            width: 220px;
+            background-color:black;
+            text-align: center;
+            padding-left: 8px;
+            border-radius: 10px;
+              
+            
+        }
+        button{
+            border-radius: 12px; 
+            border: 1px solid;
+            background-color: rgba(116, 164, 164, 0.288);
+            
+        }
+        .res{
+            background-color: rgb(98, 0, 255);
+            width: 100px;
+            color: white;
+           
+        }
+        #screen{
+            height:30px;
+            width: 200px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border: 1px solid;
+            color: white;
+        }
+        .symb{
+            background-color: blue;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div id="screen"></div>
+    <div class="grid">
+        <button class="clear" type="button">c</button>
+        <button class="back" type="button"><-</button>
+        <button class="num symb" type="button">%</button>
+        <button class="num symb" type="button">/</button>
+        <button class="num" type="button">7</button>
+        <button class="num" type="button">8</button>
+        <button class="num" type="button">9</button>
+        <button class="num symb" type="button">x</button>
+        <button class="num" type="button">4</button>
+        <button class="num" type="button">5</button>
+        <button class="num" type="button">6</button>
+        <button class="num symb" type="button">-</button>
+        <button class="num" type="button">1</button>
+        <button class="num" type="button">2</button>
+        <button class="num" type="button">3</button>
+        <button class="num symb" type="button">+</button>
+        <button class="num" type="button">0</button>
+        <button class="num" type="button">.</button>
+        
+        <button class="res" type="button">=</button>
+
+    </div>
+</div>
+<div>
+    <h1 class="abc"></h1>
+    <h1 class="abc"></h1>
+    <h1 class="abc"></h1>
+    <h1 class="abc"></h1>
+    <h1 class="abc"></h1>
+    
+</div>
+<script src="script.js"></script>
+</body>
+</html>
