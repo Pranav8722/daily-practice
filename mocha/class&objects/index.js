@@ -84,3 +84,7 @@
 
 
 
+// let name1="pranav"
+// let arr=name1.split("")
+// arr.splice(1,2,"R","A",)
+// console.log(arr)

@@ -1,0 +1,138 @@
+ *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .nav{
+        background-color: black;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        color: white;
+        box-shadow:0px 0px 6px gray ;
+        position: sticky;
+        top: 0px;
+        z-index: 1;
+    }
+    .three-dots{
+        margin-left: 10px;
+    }
+    .back{
+        margin-left: 20px;
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.419);
+        font-size: 30px;
+
+    }
+    .home{
+        position: relative;
+        left: 380px;
+        background-color: rgba(50, 49, 49, 0.755);
+        height: 55px;
+        width: 55px;
+        border-radius: 50%;
+    }
+    .house{
+        position: relative;
+        left: 12px;
+        top: 12px;
+    }
+    input{
+        position: relative;
+        left: 390px;
+        background-color: rgba(50, 49, 49, 0.755);
+        height: 45px;
+        width: 460px;
+        border-radius: 28px;
+        border: 1px solid ;
+    }
+    .search{
+        position: relative;
+        left: 440px;
+    }
+    .brows{
+        position: relative;
+        left: 350px;
+    }
+    h2{
+         position: relative;
+        left: 300px;
+    }
+    .explore{
+        color: black;
+         background-color: white;
+         border-radius: 20px;
+        text-decoration: none;
+       position: relative;
+       left: 400px;
+        padding: 10px;
+        padding-right: 10px;
+        width:130px;
+        margin-left: 10px;
+        font-weight: bold;
+    }
+    .bell{
+         position: relative;
+        left: 430px;
+    }
+    .people{
+         position: relative;
+        left: 450px;
+    }
+    .prof{
+         position: relative;
+        left: 480px;
+        background-color: rgba(72, 59, 59, 0.755);
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+    }
+    .prof2{
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        background-color: rgba(145, 32, 32, 0.755);
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+     body{
+        background-image: url("https://wallpaperaccess.com/full/1188345.png");
+        background-repeat: no-repeat;
+        background-size: 1700px 1600px;
+       
+    }
+    .card{
+        margin-left: 20px;
+        margin-top: 20px;
+        height: 350px;
+        width: 250px;
+        border: 1px solid ;
+        box-shadow:0px 0px 10px gray;
+        background: url("https://preview.redd.it/q4f66a4fddt11.png?width=300&format=png&auto=webp&s=2f4ca46a11d4c4c746101c504ebc00fe3a592a66");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 250px;
+        
+    }
+    .card img{
+        height: 151px;
+        width: 201px;
+        position: relative;
+        left: 25px;
+        top: 75px;
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(4,200px);
+        grid-template-rows: repeat(3,200px);
+        gap: 150px;
+        row-gap: 180px;
+        margin-left: 60px;        
+        
+    }
