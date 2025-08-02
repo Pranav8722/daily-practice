@@ -5,13 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .grandpa{
+            position: relative;
+             background-color:blue;
+            height: 800px;
+            width: 800px;
+            color: white;
+            font-size: 20px;
+            
+        }
+
         .parrent{
+           
             background-color: black;
             height: 500px;
             width: 500px;
             color: white;
             font-size: 20px;
-            margin: 100px;
+            
         }
         div{
             height: 100px;
@@ -20,8 +35,10 @@
         .c1{
             background-color: aqua;
             position: absolute;
-            bottom: 50px;
-            left: 700px;
+            /* bottom: 50%; */
+            top:0px;
+            right: 0px;
+            /* left:50%; */
 
         }
         .c2{
@@ -35,11 +52,13 @@
 </head>
 <body>
     <h1>position absolute</h1>
-    <div class="parrent">
+    <div class="grandpa">
+        <div class="parrent">
         <div class="c1">1</div>
         <div class="c2">2</div>
         <div class="c3">3</div>
 
+    </div>
     </div>
     <p>thi position changed from the corners of webpage corners.... 
         left right,top,bottom does  work on this also changed from the corners of web page </p>

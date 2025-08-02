@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currency converter</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            background-color: rgb(1, 59, 62);
+        }
+        .container{
+            height: 400px;
+            width: 400px;
+            background-color: rgba(0, 183, 244, 0.708);
+            position: absolute;
+            top: 100px;
+            left: 35%;
+            border-radius: 2rem;
+            box-shadow: 0px 0px 5px gray;
+            text-align: center;
+            padding-right: 25px;
+          
+
+        }
+         .container h1{
+            margin-top: 10px;
+         }
+        input{
+
+            height: 3rem;
+            width: 80%;
+            border-radius: 8px;
+            border: 1px solid black;
+            margin-top: 2rem;
+            margin-left: 25px;
+             font-size: 1.5rem;
+        }
+        .list{
+            margin-top: 40px;
+            display: flex;
+            
+            align-items: center;
+            
+        }
+        .list select{
+            height: 50px;
+            width: 100px;
+            border-radius: 8px;
+            border: 1px solid black;
+             font-size: 1.5rem;
+        }
+        .from{
+            margin-right: 50px;
+            /* gap: 20px; */
+             font-size: 1.5rem;
+        }
+        img{
+            margin-left: 25px;
+            height: 40px;
+            width: 40px;
+           margin-right: 5px;
+        }
+        .arr{
+            margin-left: -15px;
+        }
+        .convert{
+            margin-top: 60px;
+            height: 50px;
+            width: 150px;
+            border-radius: 10px;
+              font-size: 1.5rem;
+        }
+        select option{
+            background-color: rgb(0, 132, 255);
+            height: 50px;
+            width: 100px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Conveerter</h1>
+        <input type="text" name="" id="">
+        <div class="list">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.c_l6Bs7qPWkkEEqlLuDxgAHaHa?pid=Api&P=0&h=180" alt="">
+            <select  class="from">
+               
+            </select>
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="arr" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 11.5a.5.5 0 0 0 .5.5h11.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 11H1.5a.5.5 0 0 0-.5.5m14-7a.5.5 0 0 1-.5.5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H14.5a.5.5 0 0 1 .5.5"/>
+</svg>
+            <img src="https://tse1.mm.bing.net/th/id/OIP.c_l6Bs7qPWkkEEqlLuDxgAHaHa?pid=Api&P=0&h=180" alt="">
+            <select  class="to" >
+                
+            </select>
+        </div>
+
+        <button class="convert" type="button">convert</button>
+    </div>
+
+
+    <script src="./data.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
